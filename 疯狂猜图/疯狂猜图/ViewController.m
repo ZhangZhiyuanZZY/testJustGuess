@@ -437,7 +437,6 @@
     }
 }
 
-
 #pragma mark - 点击提示
 - (void)ClickPromptBtn
 {
@@ -461,9 +460,7 @@
             [self ClickOptionBtn:button];
         }
     }
-    
 }
-
 
 #pragma mark - 懒加载
 //数据模型
