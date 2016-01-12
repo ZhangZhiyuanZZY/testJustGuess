@@ -19,6 +19,7 @@
 		187430631C315D8A0044D6C3 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 187430561C315D8A0044D6C3 /* View+MASAdditions.m */; };
 		187430641C315D8A0044D6C3 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 187430591C315D8A0044D6C3 /* ViewController+MASAdditions.m */; };
 		1874306A1C3180220044D6C3 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 187430691C3180220044D6C3 /* UIButton+Extension.m */; };
+		18E3E9E81C32C64E002E107C /* ZYAnswerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E3E9E71C32C64E002E107C /* ZYAnswerModel.m */; };
 		18E4E4941C2918F600C83A17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4E4931C2918F600C83A17 /* main.m */; };
 		18E4E4971C2918F600C83A17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4E4961C2918F600C83A17 /* AppDelegate.m */; };
 		18E4E49A1C2918F600C83A17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4E4991C2918F600C83A17 /* ViewController.m */; };
@@ -58,6 +59,8 @@
 		187430681C3180220044D6C3 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
 		187430691C3180220044D6C3 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
 		1874306B1C3181D40044D6C3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		18E3E9E61C32C64E002E107C /* ZYAnswerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnswerModel.h; sourceTree = "<group>"; };
+		18E3E9E71C32C64E002E107C /* ZYAnswerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnswerModel.m; sourceTree = "<group>"; };
 		18E4E48F1C2918F600C83A17 /* 疯狂猜图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "疯狂猜图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E4E4931C2918F600C83A17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18E4E4951C2918F600C83A17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -138,6 +141,8 @@
 				18E4E4961C2918F600C83A17 /* AppDelegate.m */,
 				18E4E4981C2918F600C83A17 /* ViewController.h */,
 				18E4E4991C2918F600C83A17 /* ViewController.m */,
+				18E3E9E61C32C64E002E107C /* ZYAnswerModel.h */,
+				18E3E9E71C32C64E002E107C /* ZYAnswerModel.m */,
 				187430681C3180220044D6C3 /* UIButton+Extension.h */,
 				187430691C3180220044D6C3 /* UIButton+Extension.m */,
 				18E4E49B1C2918F600C83A17 /* Main.storyboard */,
@@ -186,6 +191,7 @@
 		18E4E4871C2918F600C83A17 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZY;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ZZY;
 				TargetAttributes = {
@@ -237,6 +243,7 @@
 				187430601C315D8A0044D6C3 /* MASViewConstraint.m in Sources */,
 				1874305B1C315D8A0044D6C3 /* MASCompositeConstraint.m in Sources */,
 				187430611C315D8A0044D6C3 /* NSArray+MASAdditions.m in Sources */,
+				18E3E9E81C32C64E002E107C /* ZYAnswerModel.m in Sources */,
 				18E4E49A1C2918F600C83A17 /* ViewController.m in Sources */,
 				18E4E4971C2918F600C83A17 /* AppDelegate.m in Sources */,
 				1874305E1C315D8A0044D6C3 /* MASLayoutConstraint.m in Sources */,
